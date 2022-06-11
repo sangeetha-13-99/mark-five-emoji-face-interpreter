@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #1e293b;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.heading {
+  display: inline-block;
+  margin: 40px;
+  padding: 5px 40px;
+  /* border:1px solid white; */
+}
+.mainHeading {
+  /* border:1px solid white; */
+  margin: 0;
+  border-radius: 10px;
+  background-color: #db2777;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.formInput {
+  width: 80%;
+  margin: auto;
+  line-height: 25px;
+}
+
+.formField {
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #db2777;
+  backdrop-filter: blur(10px);
+}
+.formField::placeholder {
+  color: #f472b6;
+  font-size: 14px;
+  text-align: center;
+}
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 20px auto;
+}
+
+.emojiBox {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  line-height: 40px;
+  margin: 10px auto;
+  background-color: #1e293b;
+}
+
+.emojiMeaning {
+  /* width:100%; */
+  color: #db2777;
+  border: 2px solid #db2777;
+  padding: 10px;
+  /* margin-top:40px; */
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.emojiItem {
+  background-color: #db2777;
+  padding: 4px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.emojiItem:hover {
+  background-color: #f472b6;
+}
