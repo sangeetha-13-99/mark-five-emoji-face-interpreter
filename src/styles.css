@@ -14,10 +14,8 @@ body {
   display: inline-block;
   margin: 40px;
   padding: 5px 40px;
-  /* border:1px solid white; */
 }
 .mainHeading {
-  /* border:1px solid white; */
   margin: 0;
   border-radius: 10px;
   background-color: #db2777;
@@ -66,11 +64,9 @@ body {
 }
 
 .emojiMeaning {
-  /* width:100%; */
   color: #db2777;
   border: 2px solid #db2777;
   padding: 10px;
-  /* margin-top:40px; */
   font-weight: bold;
   font-size: 16px;
   border-radius: 10px;
@@ -86,4 +82,13 @@ body {
 }
 .emojiItem:hover {
   background-color: #f472b6;
+}
+.footer > p {
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
 }
