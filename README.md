@@ -7,5 +7,5 @@
 </div>
 I have created an object and stored  all the emoji's as key and its output/ its expression as an value. every time user clicks on emoji provided on ui, interpretation happens and also user provided with an input field to enter his desired emoji for interpretation.if the emoji is not available in the object keys, we provide the output as not found in database.
 <div>
-    Here is the livelink  do check it out: <a href="https://csb-60teod.netlify.app/">Emoji-face-interpreter</a>
+    Here is the livelink  do check it out: <a href="https://csb-yqjfci.netlify.app/">Emoji-face-interpreter</a>
 </div>
